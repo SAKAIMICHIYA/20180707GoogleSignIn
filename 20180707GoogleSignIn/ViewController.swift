@@ -15,10 +15,13 @@ import GoogleSignIn
 class ViewController: UIViewController, GIDSignInUIDelegate {
     // [END viewcontroller_interfaces]
     // [START viewcontroller_vars]
+    
+
     @IBOutlet weak var signInButton: GIDSignInButton!
     @IBOutlet weak var signOutButton: UIButton!
     @IBOutlet weak var disconnectButton: UIButton!
     @IBOutlet weak var statusText: UILabel!
+    
     // [END viewcontroller_vars]
     // [START viewdidload]
     override func viewDidLoad() {
@@ -30,10 +33,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
         //GIDSignIn.sharedInstance().signInSilently()
         // TODO(developer) Configure the sign-in button look/feel
         // [START_EXCLUDE]
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(ViewController.receiveToggleAuthUINotification(_:)),
-                                               name: NSNotification.Name(rawValue: "ToggleAuthUINotification"),
-                                               object: nil)
+        NotificationCenter.default.addObserver(self,selector: #selector(ViewController.receiveToggleAuthUINotification(_:)),name: NSNotification.Name(rawValue: "ToggleAuthUINotification"),object: nil)
         
         statusText.text = "Initialized Swift app..."
         toggleAuthUI()
@@ -41,6 +41,8 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     }
     // [END viewdidload]
     // [START signout_tapped]
+    
+    
     @IBAction func didTapSignOut(_ sender: AnyObject) {
         GIDSignIn.sharedInstance().signOut()
         // [START_EXCLUDE silent]
@@ -50,6 +52,8 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     }
     // [END signout_tapped]
     // [START disconnect_tapped]
+    
+    
     @IBAction func didTapDisconnect(_ sender: AnyObject) {
         GIDSignIn.sharedInstance().disconnect()
         // [START_EXCLUDE silent]
@@ -77,9 +81,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     }
     
     deinit {
-        NotificationCenter.default.removeObserver(self,
-                                                  name: NSNotification.Name(rawValue: "ToggleAuthUINotification"),
-                                                  object: nil)
+        NotificationCenter.default.removeObserver(self,name:NSNotification.Name(rawValue: "ToggleAuthUINotification"),object: nil)
     }
     
     @objc func receiveToggleAuthUINotification(_ notification: NSNotification) {

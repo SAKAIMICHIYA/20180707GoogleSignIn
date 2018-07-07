@@ -18,22 +18,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tzJ-11-On8" customClass="GIDSignInButton">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzJ-11-On8" customClass="GIDSignInButton">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vre-dL-xAD">
-                                        <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hD-JO-BWu">
+                                        <rect key="frame" x="29" y="579" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="didTapSignOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9eT-Og-0Ai"/>
+                                        </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXY-kF-pkq">
+                                        <rect key="frame" x="297" y="579" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="didTapDisconnect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dt2-6n-8Oj"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qxm-s4-Hcp">
+                                        <rect key="frame" x="168" y="460" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="rXY-kF-pkq" secondAttribute="trailing" constant="32" id="02z-c3-d8U"/>
+                                    <constraint firstItem="5hD-JO-BWu" firstAttribute="leading" secondItem="tzJ-11-On8" secondAttribute="leading" constant="29" id="2PU-qF-4am"/>
+                                    <constraint firstAttribute="trailing" secondItem="5hD-JO-BWu" secondAttribute="trailing" constant="300" id="2k7-4Q-MHe"/>
+                                    <constraint firstAttribute="bottom" secondItem="rXY-kF-pkq" secondAttribute="bottom" constant="58" id="DVQ-mU-qT0"/>
+                                    <constraint firstItem="rXY-kF-pkq" firstAttribute="leading" secondItem="tzJ-11-On8" secondAttribute="leading" constant="297" id="TXe-dc-PCf"/>
+                                    <constraint firstAttribute="bottom" secondItem="5hD-JO-BWu" secondAttribute="bottom" constant="58" id="vfI-KT-5i6"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tzJ-11-On8" secondAttribute="trailing" id="8UL-W0-a2o"/>
+                            <constraint firstItem="tzJ-11-On8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IYb-t3-qTj"/>
+                            <constraint firstItem="tzJ-11-On8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qeq-Zs-ef1"/>
+                            <constraint firstItem="tzJ-11-On8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gfv-vN-Fih"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="disconnectButton" destination="rXY-kF-pkq" id="Mqp-22-7of"/>
+                        <outlet property="signInButton" destination="tzJ-11-On8" id="es5-Rl-021"/>
+                        <outlet property="signOutButton" destination="5hD-JO-BWu" id="qUJ-io-BOv"/>
+                        <outlet property="statusText" destination="Qxm-s4-Hcp" id="PS7-0R-dBw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
