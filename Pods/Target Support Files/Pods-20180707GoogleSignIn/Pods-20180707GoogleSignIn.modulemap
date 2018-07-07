@@ -1,0 +1,6 @@
+framework module Pods_20180707GoogleSignIn {
+  umbrella header "Pods-20180707GoogleSignIn-umbrella.h"
+
+  export *
+  module * { export * }
+}
