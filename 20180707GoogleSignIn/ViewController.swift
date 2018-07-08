@@ -15,14 +15,15 @@ import GoogleSignIn
 class ViewController: UIViewController, GIDSignInUIDelegate {
     // [END viewcontroller_interfaces]
     // [START viewcontroller_vars]
-    
 
+    
     @IBOutlet weak var signInButton: GIDSignInButton!
     @IBOutlet weak var signOutButton: UIButton!
     @IBOutlet weak var disconnectButton: UIButton!
     @IBOutlet weak var statusText: UILabel!
     
-    // [END viewcontroller_vars]
+    
+        // [END viewcontroller_vars]
     // [START viewdidload]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +44,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     // [START signout_tapped]
     
     
-    @IBAction func didTapSignOut(_ sender: AnyObject) {
+    @IBAction func didTapSignOut(_ sender: Any) {
         GIDSignIn.sharedInstance().signOut()
         // [START_EXCLUDE silent]
         statusText.text = "Signed out."
@@ -52,9 +53,9 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     }
     // [END signout_tapped]
     // [START disconnect_tapped]
+ 
     
-    
-    @IBAction func didTapDisconnect(_ sender: AnyObject) {
+    @IBAction func didTapDisconnect(_ sender: Any) {
         GIDSignIn.sharedInstance().disconnect()
         // [START_EXCLUDE silent]
         statusText.text = "Disconnecting."

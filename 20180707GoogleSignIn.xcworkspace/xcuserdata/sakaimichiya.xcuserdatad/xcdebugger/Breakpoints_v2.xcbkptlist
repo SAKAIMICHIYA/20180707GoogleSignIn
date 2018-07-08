@@ -9,24 +9,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "20180707GoogleSignIn/AppDelegate.swift"
-            timestampString = "552653599.4485919"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "20180707GoogleSignIn/ViewController.swift"
-            timestampString = "552653599.448671"
+            timestampString = "552747455.777886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
@@ -42,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "20180707GoogleSignIn/ViewController.swift"
-            timestampString = "552653599.449065"
+            timestampString = "552747455.77854"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -120,7 +104,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "20180707GoogleSignIn/ViewController.swift"
-            timestampString = "552653599.449293"
+            timestampString = "552747455.778834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -136,12 +120,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "20180707GoogleSignIn/ViewController.swift"
-            timestampString = "552653599.449533"
+            timestampString = "552747455.77909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "didTapDisconnect(_:)"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20180707GoogleSignIn/ViewController.swift"
+            timestampString = "552747455.779318"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "didTapSignOut(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -152,13 +152,123 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "20180707GoogleSignIn/ViewController.swift"
-            timestampString = "552653599.449748"
+            timestampString = "552747455.779542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0180707GoogleSignIn.ViewController.signInButton.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.GIDSignInButton&gt;"
+                  moduleName = "20180707GoogleSignIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakaimichiya/Desktop/20180707GoogleSignIn/20180707GoogleSignIn/ViewController.swift"
+                  timestampString = "552747439.330981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0180707GoogleSignIn.ViewController.signInButton.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.GIDSignInButton&gt;"
+                  moduleName = "20180707GoogleSignIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakaimichiya/Desktop/20180707GoogleSignIn/20180707GoogleSignIn/ViewController.swift"
+                  timestampString = "552747439.332845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0180707GoogleSignIn.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _0180707GoogleSignIn.ViewController"
+                  moduleName = "20180707GoogleSignIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakaimichiya/Desktop/20180707GoogleSignIn/20180707GoogleSignIn/ViewController.swift"
+                  timestampString = "552747439.334792"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0180707GoogleSignIn.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;_0180707GoogleSignIn.ViewController&gt;"
+                  moduleName = "20180707GoogleSignIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakaimichiya/Desktop/20180707GoogleSignIn/20180707GoogleSignIn/ViewController.swift"
+                  timestampString = "552747439.336898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20180707GoogleSignIn/ViewController.swift"
+            timestampString = "552747455.779977"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0180707GoogleSignIn.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; _0180707GoogleSignIn.ViewController"
+                  moduleName = "20180707GoogleSignIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakaimichiya/Desktop/20180707GoogleSignIn/20180707GoogleSignIn/ViewController.swift"
+                  timestampString = "552747447.032697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0180707GoogleSignIn.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;_0180707GoogleSignIn.ViewController&gt;"
+                  moduleName = "20180707GoogleSignIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakaimichiya/Desktop/20180707GoogleSignIn/20180707GoogleSignIn/ViewController.swift"
+                  timestampString = "552747447.03526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

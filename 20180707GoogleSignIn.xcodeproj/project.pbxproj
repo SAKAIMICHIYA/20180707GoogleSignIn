@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0647BDE422E6CA75812D046A /* Pods_20180707GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C446B3E81D70EFF0AC18F40 /* Pods_20180707GoogleSignIn.framework */; };
+		D6C0240A20F23F6D00C8C988 /* Pods_20180707GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C0240920F23F6D00C8C988 /* Pods_20180707GoogleSignIn.framework */; };
 		D6F109B820F079FE000B5A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F109B720F079FE000B5A56 /* AppDelegate.swift */; };
 		D6F109BA20F079FE000B5A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F109B920F079FE000B5A56 /* ViewController.swift */; };
 		D6F109BD20F079FE000B5A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F109BB20F079FE000B5A56 /* Main.storyboard */; };
@@ -19,6 +19,8 @@
 		3C446B3E81D70EFF0AC18F40 /* Pods_20180707GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20180707GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E1878D2B1F6156893EBD4E /* Pods-20180707GoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20180707GoogleSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-20180707GoogleSignIn/Pods-20180707GoogleSignIn.release.xcconfig"; sourceTree = "<group>"; };
 		9028AB3F8B7558A546DA42B2 /* Pods-20180707GoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20180707GoogleSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-20180707GoogleSignIn/Pods-20180707GoogleSignIn.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B5A47E20F0E02D00A1A569 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C0240920F23F6D00C8C988 /* Pods_20180707GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_20180707GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F109B420F079FE000B5A56 /* 20180707GoogleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20180707GoogleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F109B720F079FE000B5A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6F109B920F079FE000B5A56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0647BDE422E6CA75812D046A /* Pods_20180707GoogleSignIn.framework in Frameworks */,
+				D6C0240A20F23F6D00C8C988 /* Pods_20180707GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +54,8 @@
 		8E56E78D16223A82CEA50460 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6C0240920F23F6D00C8C988 /* Pods_20180707GoogleSignIn.framework */,
+				D6B5A47E20F0E02D00A1A569 /* GoogleToolboxForMac.framework */,
 				3C446B3E81D70EFF0AC18F40 /* Pods_20180707GoogleSignIn.framework */,
 			);
 			name = Frameworks;
@@ -306,6 +310,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -359,6 +364,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -378,6 +384,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.live.sandarain.raika.-0180707GoogleSignIn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -397,6 +404,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.live.sandarain.raika.-0180707GoogleSignIn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
